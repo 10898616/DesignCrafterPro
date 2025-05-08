@@ -1,0 +1,203 @@
+Here’s a more detailed version of the UI design outline for the desktop application, which allows designers to visualize furniture designs in rooms:
+
+---
+
+## **1. Login Screen for Designers**
+
+### **Components:**
+
+1. **Input Fields:**
+
+   * **Username:** Text input field for the designer's username (email or username).
+   * **Password:** Secure text input field for the designer's password.
+   * **Validation:** Real-time validation for both username and password fields (e.g., showing "Required" or "Invalid credentials" error message).
+
+2. **Buttons:**
+
+   * **Login Button:** Submits the login form. When clicked, the system authenticates the designer. The button will be disabled until both fields are filled.
+   * **Forgot Password:** A link under the password field, which allows the designer to reset the password.
+
+3. **Visual Elements:**
+
+   * **Logo:** A logo or brand name at the top center of the login screen.
+   * **Welcome Text:** Brief welcome message like “Welcome Back! Please log in to start designing.”
+   * **Background:** Subtle gradient or light image reflecting the design theme.
+
+4. **Feedback:**
+
+   * **Error Message:** If login fails, display a red message below the password field saying "Invalid username or password." The error should be dynamically updated.
+
+5. **Responsive Design:** Ensure the screen resizes well for different desktop screen sizes, maintaining usability.
+
+### **Color Scheme:**
+
+* **Primary Colors:** Soft pastel or neutral tones like light gray and white for background, with accent colors such as navy blue or forest green for the buttons and text.
+* **Error Message:** Red color for error feedback (e.g., invalid credentials).
+
+---
+
+## **2. Main Dashboard (Admin Side for Designers)**
+
+### **Navigation Bar:**
+
+* **Placement:** Fixed navigation bar at the top of the page.
+
+* **Sections:**
+
+  * **Home:** Redirects to the dashboard’s homepage with an overview of recent designs.
+  * **New Design:** Button leading to the page for creating new designs.
+  * **View Designs:** Takes the designer to a gallery or list view of all saved designs.
+  * **Settings:** Leads to user-specific settings where the designer can customize preferences.
+  * **Logout:** A logout button, typically at the top-right corner.
+
+* **Navigation Elements:**
+
+  * Icons representing each section (e.g., home, design, settings).
+  * Hover effects to indicate which section is active.
+
+### **Buttons for Actions:**
+
+* **Create New Design Button:** Large and visually prominent, either floating or at the top of the dashboard for easy access.
+* **View Saved Designs:** Button to open the gallery of saved designs, with options to edit or delete each design.
+
+### **Design Options Panel:**
+
+* **Filters and Drop-downs:**
+
+  * **Room Shape:** Drop-down to select the room shape (e.g., square, rectangular, circular).
+  * **Color Scheme:** Option to select a room color scheme (predefined palettes or custom colors).
+  * **Furniture Type:** Drop-down with a list of furniture categories (e.g., chairs, tables, sofas).
+
+### **Design Preview Area:**
+
+* **Preview Display:**
+
+  * **2D View:** Display of the room in 2D. Designers can see the floorplan with furniture layout.
+  * **3D View (Button to Toggle):** A toggle button or side panel to switch between 2D and 3D visualization modes.
+
+### **Actions Panel for Furniture:**
+
+* **Furniture Customization Options:**
+
+  * **Resize Furniture:** Buttons or sliders to resize the furniture.
+  * **Rotate Furniture:** Ability to rotate the furniture in the 2D or 3D space.
+  * **Move Furniture:** Drag and drop functionality to place furniture wherever it fits in the room.
+  * **Add/Remove Pieces:** Option to add new furniture from a catalog or remove existing pieces.
+  * **Furniture Color:** Pickers to select a color for each furniture piece.
+
+### **Save/Export Options:**
+
+* **Save Button:** Prominent save button to save the design with the option to add a name and description.
+* **Export Options:**
+
+  * Export as an image (JPG/PNG).
+  * Export as a 3D model (OBJ/GLTF).
+
+### **Feedback:**
+
+* **Loading Spinner:** Display a loading animation while the design is being saved or exported.
+* **Success/Error Messages:** Show "Design saved successfully" or "Error: Failed to save" depending on the outcome.
+
+---
+
+## **3. 2D Visualization Mode**
+
+### **Room Dimensions:**
+
+* **Inputs for Dimensions:** Input fields for room size (length, width, height), allowing the designer to adjust the room layout dynamically.
+* **Adjust Room Walls:** Buttons to adjust wall thickness or height for a more realistic preview.
+
+### **Furniture Placement:**
+
+* **Drag-and-Drop Furniture:** Select furniture from a palette and drag it into the room layout. The furniture snaps into place with a visual grid.
+
+### **Color Selection:**
+
+* **Furniture Color Picker:** Each piece of furniture has a color picker tool allowing the designer to customize the furniture color.
+* **Wall Color:** A separate color picker to adjust the wall color.
+
+### **Scaling and Adjustments:**
+
+* **Resizing Tools:** Use a simple slider or buttons to resize furniture or the entire room.
+* **Align to Grid:** Snap-to-grid functionality to align furniture pieces with the room’s boundaries.
+
+---
+
+## **4. 3D Visualization Mode**
+
+### **Switch to 3D View:**
+
+* **Toggle Button:** A clear button to switch between 2D and 3D modes.
+
+### **Interactive 3D View:**
+
+* **3D View Controls:**
+
+  * **Zoom in/out** using mouse scroll or pinch-to-zoom.
+  * **Rotate the Room:** Click and drag to rotate the room for different perspectives.
+  * **Lighting Effects:** Add basic lighting options (e.g., natural, warm, cold light).
+
+### **Furniture and Room Adjustment:**
+
+* **Furniture Size:** Resize the furniture in the 3D space with an interactive scale tool.
+* **Apply Textures/Materials:** Apply materials (e.g., wood, fabric, metal) to furniture and walls.
+
+### **Room Dimensions in 3D:**
+
+* **Adjust Height, Width, and Length**: Allow resizing of the room in 3D for more accurate visualization.
+
+---
+
+## **5. Edit and Delete Saved Designs**
+
+### **Design List:**
+
+* **Gallery View:** Display all saved designs in a grid or list format.
+* **Design Thumbnails:** Each design shows a small preview image.
+
+### **Actions for Saved Designs:**
+
+* **Edit Design:** Button to bring up the design in the editing mode where the designer can modify furniture, room layout, etc.
+* **Delete Design:** A trash icon next to each saved design to allow easy deletion.
+* **Duplicate Design:** Option to duplicate a design to make quick variations.
+
+### **Confirmation for Deletion:**
+
+* **Pop-up Modal:** Confirm with a modal before deleting any design to avoid accidental deletion.
+
+---
+
+## **6. Settings**
+
+### **Preferences:**
+
+* **Default Settings:** Set default room sizes, furniture types, and color schemes.
+* **Reset Settings:** Option to reset all settings to the default values.
+
+### **User Preferences:**
+
+* **Personalize UI:** Change the color theme of the dashboard (light/dark mode).
+* **Font Size Adjustments:** Allow the user to increase or decrease text size for accessibility.
+
+---
+
+## **Design Tools & Features**
+
+### **Figma Prototyping:**
+
+* **Wireframes:** Use Figma to create initial low-fidelity wireframes that outline the user flow and layout.
+* **Prototypes:** Build high-fidelity prototypes using Figma to showcase the interactions between components.
+
+### **Usability Testing:**
+
+* **A/B Testing:** Create two versions of the design (e.g., for the dashboard layout) and gather feedback from real users.
+* **Feedback Loops:** After initial testing, gather feedback to iterate on the design and improve the user experience.
+
+### **Animations and Transitions:**
+
+* **Smooth Transitions:** Add smooth transitions between 2D and 3D modes, furniture movements, and resize actions to enhance the user experience.
+* **Hover Effects:** Add hover effects to buttons, icons, and interactive elements to make the UI feel responsive.
+
+---
+
+This detailed version of the UI design now includes each screen and component's functionality, layout, and visual elements, providing a robust framework to start development. Each section can be prototyped in tools like Figma or Sketch to gather feedback from real users or designers and refined accordingly.

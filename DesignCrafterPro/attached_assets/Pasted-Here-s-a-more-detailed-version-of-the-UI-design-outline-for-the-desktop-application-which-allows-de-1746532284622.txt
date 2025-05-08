@@ -1,0 +1,106 @@
+Here’s a more detailed version of the UI design outline for the desktop application, which allows designers to visualize furniture designs in rooms:
+
+1. Login Screen for Designers
+Components:
+Input Fields:
+
+Username: Text input field for the designer's username (email or username).
+
+Password: Secure text input field for the designer's password.
+
+Validation: Real-time validation for both username and password fields (e.g., showing "Required" or "Invalid credentials" error message).
+
+Buttons:
+
+Login Button: Submits the login form. When clicked, the system authenticates the designer. The button will be disabled until both fields are filled.
+
+Forgot Password: A link under the password field, which allows the designer to reset the password.
+
+Visual Elements:
+
+Logo: A logo or brand name at the top center of the login screen.
+
+Welcome Text: Brief welcome message like “Welcome Back! Please log in to start designing.”
+
+Background: Subtle gradient or light image reflecting the design theme.
+
+Feedback:
+
+Error Message: If login fails, display a red message below the password field saying "Invalid username or password." The error should be dynamically updated.
+
+Responsive Design: Ensure the screen resizes well for different desktop screen sizes, maintaining usability.
+
+Color Scheme:
+Primary Colors: Soft pastel or neutral tones like light gray and white for background, with accent colors such as navy blue or forest green for the buttons and text.
+
+Error Message: Red color for error feedback (e.g., invalid credentials).
+
+2. Main Dashboard (Admin Side for Designers)
+Navigation Bar:
+Placement: Fixed navigation bar at the top of the page.
+
+Sections:
+
+Home: Redirects to the dashboard’s homepage with an overview of recent designs.
+
+New Design: Button leading to the page for creating new designs.
+
+View Designs: Takes the designer to a gallery or list view of all saved designs.
+
+Settings: Leads to user-specific settings where the designer can customize preferences.
+
+Logout: A logout button, typically at the top-right corner.
+
+Navigation Elements:
+
+Icons representing each section (e.g., home, design, settings).
+
+Hover effects to indicate which section is active.
+
+Buttons for Actions:
+Create New Design Button: Large and visually prominent, either floating or at the top of the dashboard for easy access.
+
+View Saved Designs: Button to open the gallery of saved designs, with options to edit or delete each design.
+
+Design Options Panel:
+Filters and Drop-downs:
+
+Room Shape: Drop-down to select the room shape (e.g., square, rectangular, circular).
+
+Color Scheme: Option to select a room color scheme (predefined palettes or custom colors).
+
+Furniture Type: Drop-down with a list of furniture categories (e.g., chairs, tables, sofas).
+
+Design Preview Area:
+Preview Display:
+
+2D View: Display of the room in 2D. Designers can see the floorplan with furniture layout.
+
+3D View (Button to Toggle): A toggle button or side panel to switch between 2D and 3D visualization modes.
+
+Actions Panel for Furniture:
+Furniture Customization Options:
+
+Resize Furniture: Buttons or sliders to resize the furniture.
+
+Rotate Furniture: Ability to rotate the furniture in the 2D or 3D space.
+
+Move Furniture: Drag and drop functionality to place furniture wherever it fits in the room.
+
+Add/Remove Pieces: Option to add new furniture from a catalog or remove existing pieces.
+
+Furniture Color: Pickers to select a color for each furniture piece.
+
+Save/Export Options:
+Save Button: Prominent save button to save the design with the option to add a name and description.
+
+Export Options:
+
+Export as an image (JPG/PNG).
+
+Export as a 3D model (OBJ/GLTF).
+
+Feedback:
+Loading Spinner: Display a loading animation while the design is being saved or exported.
+
+Success/Error Messages: Show "Design saved successfully" or "Error: Failed to save" depending on the outcome.
